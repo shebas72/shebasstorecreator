@@ -1,0 +1,17 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /script2/
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^admin/(.*) /script2/wp-admin/$1?rswy_hide_my_wp=1234 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /script2/index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN Hide My WP
+
+# END Hide My WP
+Header always unset X-Frame-Options

@@ -1,0 +1,262 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Slim Translate\n"
+"POT-Creation-Date: 2016-10-19 01:33+0700\n"
+"PO-Revision-Date: 2016-09-13 17:04+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: slim-translate.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: system/class/class-settings.php:197 system/class/class-settings.php:235
+#: system/class/class-settings.php:263
+msgid "<strong>Success</strong>, update has been changed."
+msgstr ""
+
+#: system/class/class-widget.php:197
+msgid "Translate Widgets"
+msgstr ""
+
+#: system/config.php:164
+msgid "Slim Translation"
+msgstr ""
+
+#: system/config.php:172
+msgid "It's not available yet for this language"
+msgstr ""
+
+#: system/config.php:178
+msgid "Write your custom CSS below"
+msgstr ""
+
+#: system/config.php:198
+msgid "Slim Translate Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: system/config.php:200
+msgid "Slim Translate"
+msgstr ""
+
+#: system/core/ajax/nav-menus-save.php:131
+#: system/core/ajax/nav-menus-save.php:154
+#: system/core/ajax/widgets-save.php:109
+msgid "Failed to save your changes."
+msgstr ""
+
+#: system/core/ajax/nav-menus-save.php:152
+#: system/core/ajax/widgets-save.php:126
+msgid "Succeed, your changes have been saved."
+msgstr ""
+
+#: system/core/ajax/nav-menus.php:80
+msgid "You have no custom links yet."
+msgstr ""
+
+#: system/core/ajax/nav-menus.php:114 system/core/ajax/widgets.php:113
+msgid "Cancel"
+msgstr ""
+
+#: system/core/ajax/nav-menus.php:115 system/core/ajax/widgets.php:114
+#: system/core/settings/sections/custom-css.php:30
+#: system/core/settings/sections/general.php:205
+#: system/core/settings/sections/languages.php:54
+msgid "Save Changes"
+msgstr ""
+
+#: system/core/ajax/widgets.php:80
+msgid "You have not install any widgets."
+msgstr ""
+
+#: system/core/settings/sections/general.php:32 system/includes/widget.php:21
+msgid "Translation"
+msgstr ""
+
+#: system/core/settings/sections/general.php:36
+#: system/core/settings/sections/languages.php:40
+msgid "Default Language"
+msgstr ""
+
+#: system/core/settings/sections/general.php:43
+msgid ""
+"Choose default front-end language, what language that you want to be actived "
+"for front-end language."
+msgstr ""
+
+#: system/core/settings/sections/general.php:48
+msgid "Auto Translate"
+msgstr ""
+
+#: system/core/settings/sections/general.php:51
+msgid "Let site suits to visitor's language"
+msgstr ""
+
+#: system/core/settings/sections/general.php:53
+msgid ""
+"Auto translate allows this site to translate the page to user's native "
+"language. <br/> Example: if visitor in Indonesia, then page will be "
+"translated to Bahasa Indonesia."
+msgstr ""
+
+#: system/core/settings/sections/general.php:58
+#: system/core/settings/sections/general.php:109
+msgid "No Translation Alert"
+msgstr ""
+
+#: system/core/settings/sections/general.php:61
+msgid "Enable No Translation Alert"
+msgstr ""
+
+#: system/core/settings/sections/general.php:63
+msgid ""
+"By enabling this, your site will show up alert when a single post or page "
+"doesn't available in the language that user choosed."
+msgstr ""
+
+#: system/core/settings/sections/general.php:70 system/includes/widget.php:105
+msgid "Corner Widget"
+msgstr ""
+
+#: system/core/settings/sections/general.php:74
+msgid "Toggle"
+msgstr ""
+
+#: system/core/settings/sections/general.php:77
+msgid "Active Corner Widget"
+msgstr ""
+
+#: system/core/settings/sections/general.php:80
+msgid ""
+"Enable this to appear corner widget in front-page.<br/>\n"
+"\t\t\t\t\t\tCorner Widget is widget that fixed at page's corner to change "
+"page language."
+msgstr ""
+
+#: system/core/settings/sections/general.php:87
+msgid "Vertical Alignment"
+msgstr ""
+
+#: system/core/settings/sections/general.php:89
+msgid "top"
+msgstr ""
+
+#: system/core/settings/sections/general.php:90
+#: system/core/settings/sections/general.php:100
+msgid "center"
+msgstr ""
+
+#: system/core/settings/sections/general.php:91
+msgid "bottom"
+msgstr ""
+
+#: system/core/settings/sections/general.php:92
+#: system/core/settings/sections/general.php:102
+msgid "You need to enabling \"Corner Widget\" to see the effect"
+msgstr ""
+
+#: system/core/settings/sections/general.php:97
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: system/core/settings/sections/general.php:99
+msgid "left"
+msgstr ""
+
+#: system/core/settings/sections/general.php:101
+msgid "right"
+msgstr ""
+
+#: system/core/settings/sections/general.php:130
+msgid "It's not available yet in this language."
+msgstr ""
+
+#: system/core/settings/sections/general.php:134
+msgid "Default WordPress language."
+msgstr ""
+
+#: system/core/settings/sections/general.php:164
+msgid "Blog Description"
+msgstr ""
+
+#: system/core/settings/sections/general.php:175
+msgid "Default Blog Description only can changed from wordpress setting."
+msgstr ""
+
+#: system/core/settings/wrapper.php:36
+msgid "General"
+msgstr ""
+
+#: system/core/settings/wrapper.php:39
+msgid "Languages"
+msgstr ""
+
+#: system/core/settings/wrapper.php:42
+msgid "Custom CSS"
+msgstr ""
+
+#: system/includes/base.php:155
+msgid "Are you sure want to discard this changes?"
+msgstr ""
+
+#: system/includes/base.php:156
+msgid "Translate custom link"
+msgstr ""
+
+#: system/includes/widget.php:19
+msgid "Translate your site through this widget."
+msgstr ""
+
+#: system/includes/widget.php:31
+msgid "Translate"
+msgstr ""
+
+#: system/includes/widget.php:97
+msgid "Title"
+msgstr ""
+
+#: system/includes/widget.php:103
+msgid "Widget Style"
+msgstr ""
+
+#: system/includes/widget.php:106
+msgid "Boxs"
+msgstr ""
+
+#: system/includes/widget.php:112
+msgid "Custom Class"
+msgstr ""
+
+#: system/includes/widget.php:114
+msgid "Separate class name with comma!"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://warungthemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Let visitors read what they understanding, and let visitors choose their own "
+"language as they want. \"Slim Translate\" can directly change the language "
+"without login to backend and change the language from inside the system."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bestafiko Borizqy"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/warungdsgn/?ref=warungdsgn"
+msgstr ""

@@ -1,0 +1,14 @@
+.wpcr-upgrade-bar {
+    height: 5px;
+    background-color: lightgrey;
+    max-width: 500px;
+    display: none;
+    margin-top: .5em;
+}
+
+.wpcr-upgrade-bar-inner {
+    width: 0;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: block;
+}

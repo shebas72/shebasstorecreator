@@ -1,0 +1,30 @@
+#!/bin/bash
+
+action=$1
+domain=$2
+rootdir=/var/named/
+echo $rootdir
+
+
+
+if [ "$action" == 'create' ]
+        then
+                ### check if domain already exists
+                if [ -e $rootdir/$2 ]; then
+                        echo -e $"This domain already exists.\nPlease Try Another one"
+                        exit;
+		else
+		cp -r $rootdir/storecreator.io $rootdir/$2
+		chown named.named $rootdir/$2
+
+echo 'zone '"$domain" 'IN {
+type master;
+file '\"$domain\"';
+allow-update { none; };
+};
+
+' >> /etc/named.conf
+		service named restart
+		rndc reload
+                fi
+fi

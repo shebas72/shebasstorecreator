@@ -1,0 +1,132 @@
+/* --------------------------------- Media Query --------------------------*/
+
+@media (max-width:767px) { /* smartphones and tablets -- min = 0 */
+    .navbar-brand img{
+        width: 185px;
+    }
+    .cont-form {
+        width: 100%;
+    }
+    .tit-sell{
+        font-size: 25px;
+     }
+     .ptit-form{
+        font-size: 16px
+     }
+     .cardall{
+         width: 280px;
+     }
+
+     .footer-list li a{
+         display: block;
+         text-align: center;
+     }
+     .tit-foot{
+        text-align: center;
+     }
+     .contact-list li{
+        text-align: center;
+     }
+     .contact-list li a{
+        display: block;
+        text-align: center;
+     }
+     .logo-footer{
+         text-align: center;
+     }
+     .social-icons{
+        text-align: center;
+     }
+     .side-menuo li{
+        display: block;
+    }
+    .nav-price .nav1 {
+        margin-left: 4%;
+    }
+    .nav-price .nav1-ar {
+        margin-right: 4%;
+    }
+    .log-size{
+        width: calc(100%);
+    }
+    .btn-signupo{
+        width:80%;
+    }
+    .sect-left{
+        text-align: center;
+      }
+      .sect-right{
+        text-align: center;
+      }
+      .tit-blog{
+        font-size: 22px;
+       
+      }
+      .single-comment.comment-reply {
+        padding-left: 10px;
+    }
+    .tit-developer{
+        margin: 0 auto 20px auto;
+        font-weight: 400;
+        color: #fff;
+        font-size: 34px;
+        line-height: 1;
+      }
+      .sub-tit-dev{
+        font-size: 13px;
+
+      }
+      .show-tit{
+        font-size: 18px;
+      }
+      .expiration-date{
+        float: none;
+      }
+      .plans-terms{
+        padding: 26px 8px 29px;
+      }
+      .plans-terms .custom-control{
+        padding: 0px 24px 0px;
+      }
+      .plan-price{
+        float: none;
+      }
+}
+
+@media(min-width:768px) and (max-width:991px){ /* Small screen - from 768 */
+    .cont-form {
+        width: 100%;
+    }
+    .side-menuo li{
+        display: block;
+    }
+    .sect-left{
+        text-align: center;
+      }
+      .sect-right{
+        text-align: center;
+      }
+}
+@media(min-width:992px) and (max-width:1080px){
+    .nav-linking .nav-item .nav-link{
+        padding: 22px 16px;
+    }
+    .sect-left{
+        text-align: center;
+      }
+      .sect-right{
+        text-align: center;
+      }
+}
+@media(min-width:992px) { /* Medium Screen */
+    
+}
+
+@media(min-width:1200px){ /* large screen - from 1200 to higher */
+    .sect-left{
+        float: left;
+      }
+      .sect-right{
+        float: right;
+      }
+}

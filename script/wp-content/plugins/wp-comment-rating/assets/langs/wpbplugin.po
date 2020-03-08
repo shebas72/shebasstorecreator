@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Buddy Plugin Framework\n"
+"POT-Creation-Date: 2014-01-09 15:42+0100\n"
+"PO-Revision-Date: 2014-01-09 15:42+0100\n"
+"Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../classes/wpb_plugin\n"
+
+#: ../../classes/wpb_plugin/wpb_plugin.php:669
+#, php-format
+msgid ""
+"The %s plugin needs at least PHP 5.3 in order to work correctly. Please "
+"contact your website-provider to solve this issue."
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin.php:671
+msgctxt "displayed when activating the plugin went wrong"
+msgid "Go back to the plugins section"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin.php:877
+#, php-format
+msgctxt "displayed on the plugins settings page"
+msgid ""
+"You should consider entering you purchase code for the %s plugin because you "
+"get every update immediately delivered to your WordPress installation."
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:729
+msgid "System"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:738
+msgid "Download"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:742
+msgid "Report file"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:744
+msgid "Please include this information when requesting support"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:750
+msgid "Download Report File"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:757
+msgid "Environment"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:761
+msgid "Home-URL"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:767
+msgid "Site-URL"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:773
+msgid "Plugin name"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:779
+msgid "Plugin version"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:785
+msgid "WP version"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:791
+msgid "Webserver info"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:797
+msgid "PHP version"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:803
+msgid "MySQL version"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:809
+msgid "WP memory limit"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:815
+msgid "WP debug mode"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:817
+msgid "Yes"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:817
+msgid "No"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:821
+msgid "WP max upload size"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:827
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:833
+msgid "PHP post max size"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:858
+msgid "by"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:858
+msgid "version"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:863
+msgid "Plugins"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:867
+msgid "Installed plugins"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:879
+msgid "Theme"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:883
+msgid "Current theme"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:889
+msgid "Theme version"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_admin_page.php:895
+msgctxt "Theme Author URL"
+msgid "Author URL"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_settings.php:185
+msgctxt ""
+"displayed as the window title in the media library window when the user has "
+"to select a file from it"
+msgid "Select image"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_settings.php:190
+msgctxt ""
+"displayed on the button in the media library window when the user has to "
+"select a file from it"
+msgid "Select"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_settings.php:202
+msgctxt ""
+"displayed on the button when the user has to select a file from the media "
+"library"
+msgid "Choose from your Media library"
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_settings.php:236
+msgctxt ""
+"displayed on interactive select-boxes to show that the user has to start "
+"typing anything so that the options get load via AJAX"
+msgid "Please start typing to choose ..."
+msgstr ""
+
+#: ../../classes/wpb_plugin/wpb_plugin_settings.php:236
+msgctxt ""
+"displayed when the user has to choose between different options in a select "
+"box"
+msgid "Please choose ..."
+msgstr ""

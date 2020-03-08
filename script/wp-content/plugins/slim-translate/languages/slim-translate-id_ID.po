@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Slim Translate\n"
+"POT-Creation-Date: 2016-10-19 01:33+0700\n"
+"PO-Revision-Date: 2016-10-19 01:33+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: slim-translate.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: system/class/class-settings.php:197 system/class/class-settings.php:235
+#: system/class/class-settings.php:263
+msgid "<strong>Success</strong>, update has been changed."
+msgstr "<strong>Sukses</strong>, perubahan telah disimpan."
+
+#: system/class/class-widget.php:197
+msgid "Translate Widgets"
+msgstr "Terjemahkan Widget"
+
+#: system/config.php:164
+msgid "Slim Translation"
+msgstr "Slim Translation"
+
+#: system/config.php:172
+msgid "It's not available yet for this language"
+msgstr "Ini belum tersedia untuk bahasa ini"
+
+#: system/config.php:178
+msgid "Write your custom CSS below"
+msgstr "Tulis penyesuaian CSS dibawah"
+
+#: system/config.php:198
+msgid "Slim Translate Settings"
+msgstr "Pengaturan Slim Translate"
+
+#. Plugin Name of the plugin/theme
+#: system/config.php:200
+msgid "Slim Translate"
+msgstr "Slim Translate"
+
+#: system/core/ajax/nav-menus-save.php:131
+#: system/core/ajax/nav-menus-save.php:154
+#: system/core/ajax/widgets-save.php:109
+msgid "Failed to save your changes."
+msgstr "Gagal menyimpan perubahan anda."
+
+#: system/core/ajax/nav-menus-save.php:152
+#: system/core/ajax/widgets-save.php:126
+msgid "Succeed, your changes have been saved."
+msgstr "Berhasil, perubahan anda telah tersimpan."
+
+#: system/core/ajax/nav-menus.php:80
+msgid "You have no custom links yet."
+msgstr "Anda belum mempunyai Tautan Tersesuai."
+
+#: system/core/ajax/nav-menus.php:114 system/core/ajax/widgets.php:113
+msgid "Cancel"
+msgstr "Batal"
+
+#: system/core/ajax/nav-menus.php:115 system/core/ajax/widgets.php:114
+#: system/core/settings/sections/custom-css.php:30
+#: system/core/settings/sections/general.php:205
+#: system/core/settings/sections/languages.php:54
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: system/core/ajax/widgets.php:80
+msgid "You have not install any widgets."
+msgstr "Anda belum memasang widget apapun."
+
+#: system/core/settings/sections/general.php:32 system/includes/widget.php:21
+msgid "Translation"
+msgstr "Terjemahan"
+
+#: system/core/settings/sections/general.php:36
+#: system/core/settings/sections/languages.php:40
+msgid "Default Language"
+msgstr "Bahasa Dasar"
+
+#: system/core/settings/sections/general.php:43
+msgid ""
+"Choose default front-end language, what language that you want to be actived "
+"for front-end language."
+msgstr ""
+"Pilih Bahasa untuk halaman depan, Bahasa apa yang ingin anda aktifkan untuk "
+"Bahasa di halaman depan."
+
+#: system/core/settings/sections/general.php:48
+msgid "Auto Translate"
+msgstr "Terjemahan Otomatis"
+
+#: system/core/settings/sections/general.php:51
+msgid "Let site suits to visitor's language"
+msgstr "Biarkan Bahasa disesuaikan sesuai Bahasa daerah."
+
+#: system/core/settings/sections/general.php:53
+msgid ""
+"Auto translate allows this site to translate the page to user's native "
+"language. <br/> Example: if visitor in Indonesia, then page will be "
+"translated to Bahasa Indonesia."
+msgstr ""
+"Terjemahan Otomatis memberikan akses website untuk menterjemahkan ke Bahasa "
+"asli pengunjung. <br/> Contoh: jika pengunjung berasal dari Indonesia, maka "
+"Bahasa akan diterjemahkan ke Bahasa Indonesia."
+
+#: system/core/settings/sections/general.php:58
+#: system/core/settings/sections/general.php:109
+msgid "No Translation Alert"
+msgstr "Tidak Ada Peringatan Terjemahan"
+
+#: system/core/settings/sections/general.php:61
+msgid "Enable No Translation Alert"
+msgstr "Aktifkan Tidak Ada Peringatan Terjemahan"
+
+#: system/core/settings/sections/general.php:63
+msgid ""
+"By enabling this, your site will show up alert when a single post or page "
+"doesn't available in the language that user choosed."
+msgstr ""
+"Dengan mengaktifkan ini, situs anda akan tampil peringatan ketika satu pos "
+"atau halaman belum tersedia dalam Bahasa yang pengunjung pilih."
+
+#: system/core/settings/sections/general.php:70 system/includes/widget.php:105
+msgid "Corner Widget"
+msgstr "Widget Pojok"
+
+#: system/core/settings/sections/general.php:74
+msgid "Toggle"
+msgstr "Tombol"
+
+#: system/core/settings/sections/general.php:77
+msgid "Active Corner Widget"
+msgstr "Akifkan Widget Pojok"
+
+#: system/core/settings/sections/general.php:80
+msgid ""
+"Enable this to appear corner widget in front-page.<br/>\n"
+"\t\t\t\t\t\tCorner Widget is widget that fixed at page's corner to change "
+"page language."
+msgstr ""
+"Aktifkan ini untuk menampilkan widget pojok di website.<br/>\n"
+"\t\t\t\t\t\tWIdget Pojok adalah widget yang menempel pada pojok website "
+"untuk mengganti bahasa."
+
+#: system/core/settings/sections/general.php:87
+msgid "Vertical Alignment"
+msgstr "Rata Vertikal"
+
+#: system/core/settings/sections/general.php:89
+msgid "top"
+msgstr "atas"
+
+#: system/core/settings/sections/general.php:90
+#: system/core/settings/sections/general.php:100
+msgid "center"
+msgstr "tengah"
+
+#: system/core/settings/sections/general.php:91
+msgid "bottom"
+msgstr "bawah"
+
+#: system/core/settings/sections/general.php:92
+#: system/core/settings/sections/general.php:102
+msgid "You need to enabling \"Corner Widget\" to see the effect"
+msgstr "Anda perlu mengaktifkan \"Widget Pojok\" untuk melihat efeknya."
+
+#: system/core/settings/sections/general.php:97
+msgid "Horizontal Alignment"
+msgstr "Rata Horisontal"
+
+#: system/core/settings/sections/general.php:99
+msgid "left"
+msgstr "kiri"
+
+#: system/core/settings/sections/general.php:101
+msgid "right"
+msgstr "kanan"
+
+#: system/core/settings/sections/general.php:130
+msgid "It's not available yet in this language."
+msgstr "Ini belum tersedia dalam Bahasa ini."
+
+#: system/core/settings/sections/general.php:134
+msgid "Default WordPress language."
+msgstr "Bahasa dasar WordPress"
+
+#: system/core/settings/sections/general.php:164
+msgid "Blog Description"
+msgstr "Deskripsi Blog"
+
+#: system/core/settings/sections/general.php:175
+msgid "Default Blog Description only can changed from wordpress setting."
+msgstr "Deskipsi Blog bawaan hanya dapat dirubah dari pengaturan WordPress."
+
+#: system/core/settings/wrapper.php:36
+msgid "General"
+msgstr "Umum"
+
+#: system/core/settings/wrapper.php:39
+msgid "Languages"
+msgstr "Bahasa"
+
+#: system/core/settings/wrapper.php:42
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: system/includes/base.php:155
+msgid "Are you sure want to discard this changes?"
+msgstr "Anda yakin tidak ingin menyimpan perubahan ini?"
+
+#: system/includes/base.php:156
+msgid "Translate custom link"
+msgstr "Terjemahkan Tautan Luar"
+
+#: system/includes/widget.php:19
+msgid "Translate your site through this widget."
+msgstr "Terjemahkan web anda melalui widget ini."
+
+#: system/includes/widget.php:31
+msgid "Translate"
+msgstr "Terjemahan"
+
+#: system/includes/widget.php:97
+msgid "Title"
+msgstr "Judul"
+
+#: system/includes/widget.php:103
+msgid "Widget Style"
+msgstr "Gaya Widget"
+
+#: system/includes/widget.php:106
+msgid "Boxs"
+msgstr "Kotak"
+
+#: system/includes/widget.php:112
+msgid "Custom Class"
+msgstr "Class Tambahan"
+
+#: system/includes/widget.php:114
+msgid "Separate class name with comma!"
+msgstr "Pisahkan class dengan koma!"
+
+#. Plugin URI of the plugin/theme
+msgid "http://warungthemes.com"
+msgstr "http://warungthemes.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Let visitors read what they understanding, and let visitors choose their own "
+"language as they want. \"Slim Translate\" can directly change the language "
+"without login to backend and change the language from inside the system."
+msgstr ""
+"Biarkan pengunjung membaca apa yang mereka pahami, dan biarkan pengunjung "
+"memilih Bahasa yang mereka pahami. \"Slim Translate\" dapat langsung merubah "
+"bahasa tanpa harus masuk dan mengganti bahasa dari dalam system."
+
+#. Author of the plugin/theme
+msgid "Bestafiko Borizqy"
+msgstr "Bestafiko Borizqy"
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/warungdsgn/?ref=warungdsgn"
+msgstr "http://themeforest.net/user/warungdsgn/?ref=warungdsgn"
+
+#~ msgid "Afrikaans"
+#~ msgstr "Afrika"
+
+#~ msgid "Albanian"
+#~ msgstr "Albania"
+
+#~ msgid "Algerian Arabic"
+#~ msgstr "Arab Algeria"
+
+#~ msgid "Belarusian"
+#~ msgstr "Belarusia"
+
+#~ msgid "Dutch (Belgium)"
+#~ msgstr "Jerman (Belgia)"
+
+#~ msgid "Faroese"
+#~ msgstr "Faroe"
+
+#~ msgid "Greenlandic"
+#~ msgstr "Greenland"
+
+#~ msgid "Hawaiian"
+#~ msgstr "Hawai"
+
+#~ msgid "Irish"
+#~ msgstr "Irlandia"
+
+#~ msgid "Kazakh"
+#~ msgstr "Kazakhtan"
+
+#~ msgid "Arabic"
+#~ msgstr "Arab"
+
+#~ msgid "Azerbaijani"
+#~ msgstr "Azerbaijan"
+
+#~ msgid "Bulgarian"
+#~ msgstr "Bulgaria"
+
+#~ msgid "Tibetan"
+#~ msgstr "Tibet"
+
+#~ msgid "Czech"
+#~ msgstr "Ceko"
+
+#~ msgid "German (Switzerland)"
+#~ msgstr "Jerman (Swiss)"
+
+#~ msgid "German"
+#~ msgstr "Jerman"
+
+#~ msgid "Greek"
+#~ msgstr "Yunani"
+
+#~ msgid "Esperanto"
+#~ msgstr "Esperanto"
+
+#~ msgid "Persian"
+#~ msgstr "Persia"
+
+#~ msgid "Finnish"
+#~ msgstr "Finlandia"
+
+#~ msgid "French"
+#~ msgstr "Prancis"
+
+#~ msgid "Hindi"
+#~ msgstr "India"
+
+#~ msgid "Croatian"
+#~ msgstr "Kroasia"
+
+#~ msgid "Hungarian"
+#~ msgstr "Hungaria"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenia"
+
+#~ msgid "Icelandic"
+#~ msgstr "Islandia"
+
+#~ msgid "Italian"
+#~ msgstr "Italia"
+
+#~ msgid "Japanese"
+#~ msgstr "Jepang"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgia"
+
+#~ msgid "Korean"
+#~ msgstr "Korea"
+
+#~ msgid "Macedonian"
+#~ msgstr "Makedonia"
+
+#~ msgid "Malay"
+#~ msgstr "Melayu"
+
+#~ msgid "Indonesian"
+#~ msgstr "Bahasa Indonesia"
+
+#~ msgid "Javanese"
+#~ msgstr "Basa Jawa"
+
+#~ msgid "Sundanese"
+#~ msgstr "Basa Sunda"
+
+#~ msgid "Myanmar (Burmese)"
+#~ msgstr "Myanmar"
+
+#~ msgid "Norwegian (Bokmal)"
+#~ msgstr "Norwegia"
+
+#~ msgid "Dutch"
+#~ msgstr "Belanda"
+
+#~ msgid "Portuguese (Brazil)"
+#~ msgstr "Portugis (Brazil)"
+
+#~ msgid "Portuguese (Portugal)"
+#~ msgstr "Portugis (Portugal)"
+
+#~ msgid "Romanian"
+#~ msgstr "Romania"
+
+#~ msgid "Russian"
+#~ msgstr "Rusia"
+
+#~ msgid "Slovak"
+#~ msgstr "Slovakia"
+
+#~ msgid "Slovenian"
+#~ msgstr "Slovenia"
+
+#~ msgid "Serbian"
+#~ msgstr "Serbia"
+
+#~ msgid "Swedish"
+#~ msgstr "Swedia"
+
+#~ msgid "Thai"
+#~ msgstr "Thailand"
+
+#~ msgid "Tagalog"
+#~ msgstr "Tagalog"
+
+#~ msgid "Turkish"
+#~ msgstr "Turki"
+
+#~ msgid "Urdu"
+#~ msgstr "Urdu"
+
+#~ msgid "Uzbek"
+#~ msgstr "Uzbekistan"
+
+#~ msgid "Ukrainian"
+#~ msgstr "Ukraina"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnam"
+
+#~ msgid "Chinese (Taiwan)"
+#~ msgstr "Mandarin (Taiwan)"
+
+#~ msgid "Chinese (China)"
+#~ msgstr "Mandarin (China)"
+
+#~ msgid "Chinese (Hong Kong)"
+#~ msgstr "Mandarin (Hong Kong)"
+
+#~ msgid "Alert will show if post isn't available yet for the language."
+#~ msgstr "Peringatan akan muncul jika pos belum tersedia dalam bahasanya."
+
+#~ msgid "Original"
+#~ msgstr "Asli"
+
+#~ msgid ""
+#~ "Change your language Easily, never get hard to translate your website."
+#~ msgstr ""
+#~ "Ganti Bahasa anda dengan mudah, jangan mempersulit untuk menterjemahkan "
+#~ "website."

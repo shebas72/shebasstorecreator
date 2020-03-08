@@ -1,0 +1,52 @@
+*** WooCommerce Volume Discount Coupons ***
+
+2017-05-03 - version 1.3.0
+* Updated the plugin for WooCommerce 3.x compatibility.
+* Improved internal definitions to maintain functionality with alternate
+  WP_CONTENT_DIR and WP_CONTENT_URL definitions.
+
+2015-11-18 - version 1.2.3
+* Fixed an issue where two coupons would not be applied at the same time due to
+  internal incorrect validation.
+
+2015-10-28 - version 1.2.2
+* Fixed a fatal error related to the use of empty on non-variables with PHP < 5.5.
+* Fixed an issue which could appear under certain conditions (auto-apply and individual use coupon
+  already applied to the cart and another auto-apply coupon attempted to be added too), where
+  the system would try to apply a coupon which would not be valid for the cart and make it impossible
+  to proceed with checkout.
+
+2015-10-23 - version 1.2.1
+* Fixed infinite recursion issue for auto-apply coupons with individual use.
+
+2015-02-19 - version 1.2.0
+* WooCommerce 2.3.x compatible
+* Improved quantity checks so that min and max conditions can be used
+  to check the total cart quantity without the need to indicate products
+  or categories.
+* Improved admin UI and moved Volume Discount options on coupons to their
+  own tab.
+
+2014-03-10 - version 1.1.4
+* Improved currency symbol rendering more consistent with WooCommerce settings.
+
+2014-01-27 - version 1.1.3
+* Translation template added.
+
+2014-01-20 - version 1.1.2
+* Guarded against woocommerce_coupon_options action invoked during save.
+* Changed use of add_message to wc_add_notice for WC 2.1+.
+* Using woocommerce_get_formatted_product_name substitute (WC 2.1)
+
+2013-11-18 - version 1.1.1
+* fixed a bug due to a typo in a variable related to excluded product IDs
+
+2013-09-12 - version 1.1.0
+* added options to show a customized message, the coupon description and
+  the volume discount info when a coupon is applied automatically
+* fixed bug comparing category sums to mininum and maximum in conjunction
+* improved automatic coupon handling so that those applied are removed
+  when not valid anymore
+
+2013-08-29 - version 1.0.0
+* Initial release

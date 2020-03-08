@@ -1,0 +1,9 @@
+2019-05-05T20:35:25+00:00 CRITICAL Uncaught Error: Call to a member function stat() on bool in /var/www/storecreator.io/script/wp-content/plugins/ssh-sftp-updater-support/class-wp-filesystem-ssh2.php:262
+Stack trace:
+#0 /var/www/storecreator.io/script/wp-admin/includes/file.php(1101): WP_Filesystem_SSH2->is_dir('/var/www/storec...')
+#1 /var/www/storecreator.io/script/wp-content/plugins/revslider/includes/slider.class.php(1068): unzip_file('/tmp/phpl4JgQ8', '/var/www/storec...')
+#2 /var/www/storecreator.io/script/wp-content/plugins/revslider/admin/revslider-admin.class.php(725): RevSliderSlider->importSliderFromPost('true', 'none', false, false, false, 'true')
+#3 /var/www/storecreator.io/script/wp-content/plugins/revslider/admin/revslider-admin.class.php(1237): RevSliderAdmin::importSliderHandle('https://storecr...', 'true', 'none', 'true')
+#4 /var/www/storecreator.io/script/wp-includes/class-wp-hook.php(286): RevSliderAdmin::onAjaxAction('')
+#5 /var/www/storecreator.io/script/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array in /var/www/storecreator.io/script/wp-content/plugins/ssh-sftp-updater-support/class-wp-filesystem-ssh2.php on line 262
+

@@ -1,0 +1,10 @@
+.wpb-comment-rating a,
+.wpb-comment-rating a:hover {
+	text-decoration: none;
+}
+
+.wpbcr-rating,
+.wpbcr-already-rated {
+	margin: 0 10px;
+	color: #dcdcdc;
+}

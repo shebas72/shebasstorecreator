@@ -1,0 +1,107 @@
+.wrap-comments_page_wpcommentrating .custom-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0 0;
+    -webkit-filter: invert(1);
+    -o-filter: invert(1);
+    filter: invert(1);
+}
+
+.wpbcr-list-icons span {
+    font-size: 30px;
+    padding: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.wpbcr-list-icons span:hover,
+.wpbcr-list-icon-selected {
+    color: #fb4253;
+}
+
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion {
+    background-color: #D03A43;
+    color: #fff;
+}
+
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion {
+    background: #D03A43;
+    border-color: #a32d35;
+    -webkit-box-shadow: inset 0 1px 0 rgba(208, 58, 67, 0.5), 0 1px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 1px 0 rgba(208, 58, 67, 0.5), 0 1px 0 rgba(0, 0, 0, .15);
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion.hover,
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion:hover,
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion.focus,
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion:focus {
+    background: #D03A43;
+    border-color: #a32d35;
+    -webkit-box-shadow: inset 0 1px 0 rgba(208, 58, 67, 0.6);
+    box-shadow: inset 0 1px 0 rgba(208, 58, 67, 0.6);
+    color: #fff;
+}
+
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion.focus,
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion:focus {
+    border-color: #a32d35;
+    -webkit-box-shadow: inset 0 1px 0 rgba(208, 58, 67, 0.6), 1px 1px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 1px 0 rgba(208, 58, 67, 0.6), 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion.active,
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion.active:hover,
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion.active:focus,
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion:active {
+    background: #D03A43;
+    border-color: #a32d35;
+    color: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+}
+
+/* this creates an inset effect on the text */
+.wrap-comments_page_wpcommentrating .wpbcr-button-deletion:active {
+    padding-top: 1px;
+}
+
+#toplevel_page_wpcommentrating_wpbuddy_links_metabox .inside {
+    background: url("../img/question-big.png") no-repeat scroll right bottom transparent;
+}
+
+#toplevel_page_wpcommentrating_wpbuddy_social_metabox .inside {
+    background: url("../img/share-big.png") no-repeat scroll right bottom transparent;
+}
+
+#toplevel_page_wpcommentrating_wpbuddy_subscribe_metabox .inside {
+    background: url("../img/rss-big.png") no-repeat scroll right top transparent;
+}
+
+/* About metabox */
+#comments_page_wpcommentrating_wpbuddy_about_metabox .inside {
+    background: url('../img/share-big.png') no-repeat right bottom;
+}
+
+.wpbcr-about-logo {
+    max-width: 70px;
+    float: right;
+}
+
+.wpbcr-about-text {
+    font-size: 1em;
+}
+
+.wpbcr-about-text span {
+    display: block;
+    font-size: 1.5em;
+}
+
+#comments_page_wpcommentrating_wpbuddy_about_metabox .twitter-follow-button {
+    margin-top: 5px;
+}
+
+#comments_page_wpcommentrating_wpbuddy_about_metabox .button {
+    margin-top: 10px;
+}

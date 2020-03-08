@@ -1,0 +1,801 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Sitesearch Pro\n"
+"POT-Creation-Date: 2016-08-16 11:27+0200\n"
+"PO-Revision-Date: 2016-08-16 11:31+0200\n"
+"Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
+"Language-Team: WP-Buddy <info@wp-buddy.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../classes/wpb_comment_rating.php:163
+#: ../../classes/wpb_comment_rating.php:348
+msgid "Rating"
+msgstr "Bewertung"
+
+#: ../../classes/wpb_comment_rating.php:200
+msgid "Layout"
+msgstr "Aussehen"
+
+#: ../../classes/wpb_comment_rating.php:203
+#: ../../classes/wpb_comment_rating.php:865
+msgid "Vote up"
+msgstr "+1 bewerten"
+
+#: ../../classes/wpb_comment_rating.php:207
+msgid "Activate up-voting"
+msgstr "+1 Bewertungen erlauben"
+
+#: ../../classes/wpb_comment_rating.php:213
+#: ../../classes/wpb_comment_rating.php:286
+msgid "Icons"
+msgstr "Symbole"
+
+#: ../../classes/wpb_comment_rating.php:222
+#: ../../classes/wpb_comment_rating.php:295
+msgid "Icon"
+msgstr "Symbol"
+
+#: ../../classes/wpb_comment_rating.php:226
+#: ../../classes/wpb_comment_rating.php:299
+#, php-format
+msgid ""
+"You can use every single Font Awesome icon (but without the \"fa-\" prefix). "
+"View %s."
+msgstr ""
+"Du kannst ein FontAwesome Symbol (ohne das \"fa-\" Präfix) benutzen. %s "
+"anzeigen."
+
+#: ../../classes/wpb_comment_rating.php:229
+#: ../../classes/wpb_comment_rating.php:302
+msgid "ASCII/HTML Text"
+msgstr "ASCII/HTML Text"
+
+#: ../../classes/wpb_comment_rating.php:234
+#, php-format
+msgid ""
+"If you want to use an ASCII- or HTML-Icon instead, please enter it here. If "
+"you have entered an ASCII- or HTML-Icon on the Vote-down section OR if the "
+"vote-down section is disabled, the Font Awesome will not be loaded. See %s "
+"for more HTML-codes."
+msgstr ""
+"Wenn Du ASCII- oder HTML-Icons stattdessen benutzen möchtest, dann fülle "
+"dieses Feld aus. Wenn Du ein ASCII- oder HTML-Icon bei der -1-Bewertung ODER "
+"die komplette -1-Sektion deaktiviert hast, dann wird Font Awesome nicht "
+"geladen. Gehe auf %s für mehr HTML-Codes."
+
+#: ../../classes/wpb_comment_rating.php:237
+#: ../../classes/wpb_comment_rating.php:310
+msgid "Icon size"
+msgstr "Symbolgröße"
+
+#: ../../classes/wpb_comment_rating.php:249
+#: ../../classes/wpb_comment_rating.php:322
+#: ../../classes/wpb_comment_rating.php:386
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: ../../classes/wpb_comment_rating.php:253
+#: ../../classes/wpb_comment_rating.php:326
+#: ../../classes/wpb_comment_rating.php:390
+msgid "The position"
+msgstr "Die Position"
+
+#: ../../classes/wpb_comment_rating.php:261
+#: ../../classes/wpb_comment_rating.php:334
+#: ../../classes/wpb_comment_rating.php:398
+msgid "Color"
+msgstr "Farbe"
+
+#: ../../classes/wpb_comment_rating.php:276
+#: ../../classes/wpb_comment_rating.php:845
+msgid "Vote down"
+msgstr "-1 bewerten"
+
+#: ../../classes/wpb_comment_rating.php:280
+msgid "Activate down-voting"
+msgstr "-1 Bewertungen erlauben"
+
+#: ../../classes/wpb_comment_rating.php:307
+#, php-format
+msgid ""
+"If you want to use an ASCII- or HTML-Icon instead, please enter it here. If "
+"you have entered an ASCII- or HTML-Icon on the vote-up section OR if the "
+"vote-up section is disabled, the Font Awesome will not be loaded. See %s for "
+"more HTML-codes."
+msgstr ""
+"Wenn Du ASCII- oder HTML-Icons stattdessen benutzen möchtest, dann fülle "
+"dieses Feld aus. Wenn Du ein ASCII- oder HTML-Icon bei der +1-Bewertung ODER "
+"die komplette +1-Sektion deaktiviert hast, dann wird Font Awesome nicht "
+"geladen. Gehe auf %s für mehr HTML-Codes."
+
+#: ../../classes/wpb_comment_rating.php:352
+msgid "Hide threshold"
+msgstr "Ausblend-Schwelle"
+
+#: ../../classes/wpb_comment_rating.php:355
+msgid ""
+"Want to hide comments that have a very low rating? Enter the threshold here. "
+"Leave 0 to deactivate."
+msgstr ""
+"Wenn du Kommentare verstecken willst, die eine geringe Bewertung habe, lege "
+"hier die Schwelle fest. Lasse die Einstellung auf 0 um sie zu deaktivieren."
+
+#: ../../classes/wpb_comment_rating.php:362
+msgid "Display total rating"
+msgstr "Gesamtbewertung anzeigen"
+
+#: ../../classes/wpb_comment_rating.php:368
+msgid "String"
+msgstr "Zeichenfolge"
+
+#: ../../classes/wpb_comment_rating.php:371
+#, php-format
+msgid "%d is the placeholder for the total number of rating a comment has got."
+msgstr ""
+"%d ist der Platzhalter für die Anzahl der Bewertungen die ein Kommentar "
+"erhalten hat."
+
+#: ../../classes/wpb_comment_rating.php:374
+msgid "Font size"
+msgstr "Schriftgröße"
+
+#: ../../classes/wpb_comment_rating.php:412
+#: ../../classes/wpb_comment_rating.php:416
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: ../../classes/wpb_comment_rating.php:430
+msgid "About"
+msgstr "Über"
+
+#: ../../classes/wpb_comment_rating.php:451
+#, php-format
+msgid "Hey %s!"
+msgstr "Hey %s!"
+
+#: ../../classes/wpb_comment_rating.php:454
+msgid ""
+"Your support helps me making this plugin even better and keep it up-to-date. "
+"Awesome! Thank you."
+msgstr ""
+"Deine Unterstützung hilft mir, dieses Plugin noch besser zu machen und es up-"
+"to-date zu halten. Cool! Danke."
+
+#: ../../classes/wpb_comment_rating.php:459
+msgid "WordPress News on Twitter"
+msgstr "WordPress News via Twitter"
+
+#: ../../classes/wpb_comment_rating.php:464
+msgid ""
+"I' very active on Twitter when it comes to WordPress news. Don't hesitate to "
+"follow the me there."
+msgstr ""
+"Bezüglich WordPress bin ich sehr aktiv auf Twitter. Scheue dich nicht, mir "
+"dort zu folgen."
+
+#: ../../classes/wpb_comment_rating.php:477
+msgid "German WordPress Newsletter"
+msgstr "Deutscher WordPress Newsletter"
+
+#: ../../classes/wpb_comment_rating.php:480
+msgid ""
+"Time to enter! Once a month I publish what happened in the WordPress world. "
+"If you want to stay in touch please subscribe to my newsletter."
+msgstr ""
+"Zeit zu Entern! Einmal im Monat gebe ich einen Newsletter über alle "
+"vergangenen WordPress-Highlights heraus. Bleibe auch du auf dem Laufenden!"
+
+#: ../../classes/wpb_comment_rating.php:484
+msgid "Subscribe to the WordPress Newsletter"
+msgstr "Zum WordPress-Newsletter eintragen"
+
+#: ../../classes/wpb_comment_rating.php:494
+msgid "Help & Links"
+msgstr "Hilfe & Links"
+
+#: ../../classes/wpb_comment_rating.php:501
+msgid "Frequently Asked Questions"
+msgstr "Häufig gestellte Fragen (englisch)"
+
+#: ../../classes/wpb_comment_rating.php:502
+msgid "Version History"
+msgstr "Versionshistorie (englisch)"
+
+#: ../../classes/wpb_comment_rating.php:503
+msgid "Report a bug"
+msgstr "Einen Fehler melden (englisch)"
+
+#: ../../classes/wpb_comment_rating.php:504
+msgid "Request a function"
+msgstr "Eine Funktion vorschlagen"
+
+#: ../../classes/wpb_comment_rating.php:505
+msgid "Submit a translation"
+msgstr "Eine Übersetzung einreichen"
+
+#: ../../classes/wpb_comment_rating.php:506
+msgid "More cool stuff by WPBuddy"
+msgstr "Mehr von WP-Buddy"
+
+#: ../../classes/wpb_comment_rating.php:518
+#: ../../classes/wpb_comment_rating.php:521 ../../wp-comment-rating.php:29
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../../classes/wpb_comment_rating.php:533
+msgid "Use nonces"
+msgstr "Nonces benutzen"
+
+#: ../../classes/wpb_comment_rating.php:536
+#, php-format
+msgid ""
+"The plugin uses so called %1$s\"nonces\"%2$s for security reasons. On this "
+"WordPress installation nonces will have a lifetime of %3$s seconds. If a "
+"caching plugin is used please make sure that your cache will invalidate "
+"earlier. Otherwise the rating will not work. If it is not possible to "
+"configure the cache you can deactivate this functionality at your own risk."
+msgstr ""
+"Zur Sicherheit deiner WordPress-Installation nutzt dieses Plugin so genannte "
+"%1$s“nonces“%2$s. Im Moment haben nonces eine Laufzeit von  %3$s Sekunden. "
+"Wenn Du ein Caching-Plugin einsetzt, sollte der Cache automatisch vor dieser "
+"Zeit neu aufgebaut werden. Ansonsten wird das Bewerten nicht richtig "
+"funktionieren. Wenn es dir nicht möglich ist, das Caching-Plugin zu "
+"konfigurieren, dann lässt sich diese Funktion auf eigene Gefahr auch "
+"komplett deaktivieren."
+
+#: ../../classes/wpb_comment_rating.php:539
+msgid "Resort comments"
+msgstr "Kommentare sortieren"
+
+#: ../../classes/wpb_comment_rating.php:542
+msgid ""
+"Whether to resort comments according to their ratings. Note that nested "
+"comments are summed up to their parents."
+msgstr ""
+"Ob die Kommentare neu sortiert werden soll. Dazu werden die aktuellen "
+"Bewertungen herangezogen. Beachte, dass hierarchische Kommentarbewertungen "
+"zu den Elternelementen aufsummiert werden."
+
+#: ../../classes/wpb_comment_rating.php:545
+msgid "Logged-in users only"
+msgstr "Nur angemeldete Benutzer"
+
+#: ../../classes/wpb_comment_rating.php:548
+msgid "Allow rating for logged in users only."
+msgstr "Bewertungen nur von angemeldeten Benutzern erlauben."
+
+#: ../../classes/wpb_comment_rating.php:551
+msgid "Set cookies"
+msgstr "Cookies setzen"
+
+#: ../../classes/wpb_comment_rating.php:554
+msgid ""
+"Set cookies in the users browser to identify him. This makes sure that s/he "
+"cannot double-vote to comments. Please note that some users have disabled "
+"cookies."
+msgstr ""
+"Setzt Cookies im Browser des Benutzers um ihn wieder erkennbar zu machen. "
+"Das sorgt dafür, dass er/sie nicht doppelt bewerten kann. Bitte beachte, "
+"dass einige Menschen Cookies deaktiviert haben."
+
+#: ../../classes/wpb_comment_rating.php:558
+msgid "Cookie save time"
+msgstr "Cookie Speicherzeitraum"
+
+#: ../../classes/wpb_comment_rating.php:561
+#: ../../classes/wpb_comment_rating.php:586
+msgid "hours"
+msgstr "Stunden"
+
+#: ../../classes/wpb_comment_rating.php:563
+msgid "How long should the cookie be valid? (in hours)"
+msgstr "Wie lange sollte das Cookie gültig bleiben? (in Stunden)"
+
+#: ../../classes/wpb_comment_rating.php:570
+msgid "Log IPs"
+msgstr "IP-Adressen loggen"
+
+#: ../../classes/wpb_comment_rating.php:573
+msgid ""
+"If you want to log the users IP addresses. This makes sure that s/he cannot "
+"double-vote to comments. Please note that not every user has a fixed IP "
+"address. This means that users can handle this by requesting a new IP "
+"address."
+msgstr ""
+"Ob Du die IP-Adresse des Benutzer aufzeichnen willst. Das stellt sicher, "
+"dass er/sie nicht doppelt bewerten kann. Sei dir jedoch im klaren, dass "
+"nicht jeder Benutzer eine statische IP-Adresse hat. Das bedeutet, dass es "
+"möglich ist, das System auszutricksen indem eine neue IP-Adresse angefordert "
+"wird."
+
+#: ../../classes/wpb_comment_rating.php:577
+msgid "Encrypt IPs"
+msgstr "IP-Adressen verschlüsseln"
+
+#: ../../classes/wpb_comment_rating.php:580
+msgid ""
+"In some countries of the European Union it is not allowed to log and save IP "
+"addresses of users. In this case all IP addresses will be encrypted."
+msgstr ""
+"In einigen Ländern Europas ist es nicht erlaubt die IP-Adresse von Benutzern "
+"aufzuzeichnen. Für diesen Fall kannst Du mit diesem Schalter dafür sorgen, "
+"dass die IP-Adressen verschlüsselt in der Datenbank gespeichert werden."
+
+#: ../../classes/wpb_comment_rating.php:583
+msgid "IP save time"
+msgstr "IP Speicherzeitraum"
+
+#: ../../classes/wpb_comment_rating.php:588
+msgid "How long should IP addresses be valid? (in hours)"
+msgstr "Wie lange soll die IP-Adresse gültig bleiben? (in Stunden)"
+
+#: ../../classes/wpb_comment_rating.php:595
+msgid "Flush IPs"
+msgstr "IP Adressen löschen"
+
+#: ../../classes/wpb_comment_rating.php:597
+#, php-format
+msgid ""
+"At current there are one entry in the IP-Database. Want to flush the table "
+"now?"
+msgid_plural ""
+"At current there are %u entries in the IP-Database. Want to flush the table "
+"now?"
+msgstr[0] ""
+"Im Moment befindet sich ein Eintrag in der IP-Datenbank. Möchtest du diesen "
+"Eintrag entfernen?"
+msgstr[1] ""
+"Im Moment befinden sich %u Einträge in der IP-Datenbank. Möchtest du alle "
+"Einträge löschen?"
+
+#: ../../classes/wpb_comment_rating.php:598
+msgid "Yes, truncate IP table"
+msgstr "Ja, IP-Tabelle leeren"
+
+#: ../../classes/wpb_comment_rating.php:601
+msgid "Post Types"
+msgstr "Artikeltypen"
+
+#: ../../classes/wpb_comment_rating.php:608
+msgid ""
+"Select on which post types you want to show the comment rating. Leave the "
+"field empty if you want to show it on all public post types."
+msgstr ""
+"Wähle auf welchen Artikeltypen Du die Kommentarbewertungen sehen möchtest. "
+"Lasse dieses Feld leer, wenn das Rating auf jeder Seite sichtbar sein soll."
+
+#: ../../classes/wpb_comment_rating.php:611
+msgid "Show \"Already rated\" text"
+msgstr "Zeige \"Bereits bewertet\"-Text"
+
+#: ../../classes/wpb_comment_rating.php:614
+msgid ""
+"If you want to show a \"You already rated this comment\" text, activate "
+"this. Note that this could slow down your page load (especially if you have "
+"a lot of comments on one page). This is because the plugin needs to check if "
+"a users has rated a comment for every single comment. This also won'nt work "
+"for sites that are using a caching plugin like WP Super Cache."
+msgstr ""
+"Wenn Du ein \"Du hast diesen Kommentar bereits bewertet\"-Text anzeigen "
+"willst, dann aktiviere diesen Schalter. Bitte beachte, dass die Ladezeit "
+"deiner Seiten dadurch zunehmen kann (gerade wenn Du viele Kommentare auf "
+"einer Seite hast). Das liegt daran, dass das Plugin jedes mal (und für jeden "
+"Kommentar!) pro Benutzer überprüfen muss. Diese Funktion funktioniert "
+"darüber hinaus nicht richtig, wenn ein Cache-Plugin, wie z.B. WP-Super-"
+"Cache, zum Einsatz kommt."
+
+#: ../../classes/wpb_comment_rating.php:618
+msgid "\"Already rated\" text"
+msgstr "\"Bereits bewertet\"-Text"
+
+#: ../../classes/wpb_comment_rating.php:620
+#: ../../classes/wpb_comment_rating.php:1946
+msgid "Already rated!"
+msgstr "Bereits bewertet!"
+
+#: ../../classes/wpb_comment_rating.php:632
+msgid "Updates"
+msgstr "Updates"
+
+#: ../../classes/wpb_comment_rating.php:636
+msgid "Purchase Code"
+msgstr "Kaufcode (Purchase Code)"
+
+#: ../../classes/wpb_comment_rating.php:638
+msgid ""
+"Please enter your purchase code here if you want to get updates "
+"automatically."
+msgstr ""
+"Bitte gib hier deinen Kaufcode (engl. Purchase Code) ein um alle Updates "
+"automatisch zu erhalten."
+
+#: ../../classes/wpb_comment_rating.php:638
+msgid "Click here if you do not know where to find your purchase code."
+msgstr ""
+"Klicke hier wenn Du nicht weißt wo Du Deinen Kaufcode (engl. Purchase Code) "
+"finden kannst."
+
+#: ../../classes/wpb_comment_rating.php:649
+msgid "Uninstalling"
+msgstr "Deinstallation"
+
+#: ../../classes/wpb_comment_rating.php:656
+msgid "Uninstall the plugin"
+msgstr "Plugin deinstallieren"
+
+#: ../../classes/wpb_comment_rating.php:666
+#: ../../classes/wpb_comment_rating.php:683
+msgid "Log"
+msgstr "Log"
+
+#: ../../classes/wpb_comment_rating.php:669
+msgid "Info settings"
+msgstr "Info-Einstellungen"
+
+#: ../../classes/wpb_comment_rating.php:673
+msgid "Max. number of log items"
+msgstr "Max. Anzahl der Logberichte"
+
+#: ../../classes/wpb_comment_rating.php:676
+msgid "When set to \"0\" the plugin will never save anything into the log."
+msgstr ""
+"Wenn dieses Feld auf \"0\" gesetzt wird, wird das Plugin nie etwas im Log "
+"abspeichern."
+
+#: ../../classes/wpb_comment_rating.php:688
+#: ../../classes/wpb_comment_rating.php:710
+msgid "Delete log"
+msgstr "Log löschen"
+
+#: ../../classes/wpb_comment_rating.php:986
+msgid "No comment ID was found."
+msgstr "Es wurde keine Kommentar-ID gefunden."
+
+#: ../../classes/wpb_comment_rating.php:986
+#: ../../classes/wpb_comment_rating.php:994
+#: ../../classes/wpb_comment_rating.php:1002
+#: ../../classes/wpb_comment_rating.php:1018
+#: ../../classes/wpb_comment_rating.php:1036
+#: ../../classes/wpb_comment_rating.php:1055
+#: ../../classes/wpb_comment_rating.php:1068
+#: ../../classes/wpb_comment_rating.php:1072
+#: ../../classes/wpb_comment_rating.php:1077
+#: ../../classes/wpb_comment_rating.php:1096
+msgid "Comment Rating Plugin Error"
+msgstr "Comment Rating Plugin Fehler"
+
+#: ../../classes/wpb_comment_rating.php:992
+#: ../../classes/wpb_comment_rating.php:994
+msgid "You must be logged-in to rate this comment."
+msgstr "Du musst eingeloggt sein um diesen Kommentar bewerten zu können."
+
+#: ../../classes/wpb_comment_rating.php:1002
+msgid "Comment ID has the wrong format."
+msgstr "Kommentar-ID hat das falsche Format."
+
+#: ../../classes/wpb_comment_rating.php:1016
+#: ../../classes/wpb_comment_rating.php:1018
+#: ../../classes/wpb_comment_rating.php:1034
+#: ../../classes/wpb_comment_rating.php:1036
+#: ../../classes/wpb_comment_rating.php:1053
+#: ../../classes/wpb_comment_rating.php:1055
+msgid "You have already rated this comment."
+msgstr "Sie haben diesen Kommentar bereits bewertet."
+
+#: ../../classes/wpb_comment_rating.php:1068
+msgid "Voting up has been disabled."
+msgstr "Bewertungen von +1 wurden deaktiviert."
+
+#: ../../classes/wpb_comment_rating.php:1072
+msgid "Voting down has been disabled."
+msgstr "Bewertungen von -1 wurden deaktiviert."
+
+#: ../../classes/wpb_comment_rating.php:1077
+msgid "There is no comment with this comment ID."
+msgstr "Es existiert kein Kommentar mit dieser Kommentar-ID."
+
+#: ../../classes/wpb_comment_rating.php:1096
+msgid "Comment rating could not be updated"
+msgstr "Die Kommentarbewertung konnte nicht aktualisiert werden."
+
+#: ../../classes/wpb_comment_rating.php:1125
+#, php-format
+msgid ""
+"Could not update parent comment with ID %1$s from child comment with ID "
+"%2$s. If this errors persists, please inform the author of this plugin. "
+"Thanks!"
+msgstr ""
+"Der Elternkommentar mit der ID %1$s vom Kindkommentar mit ID %2$s konnte "
+"nicht aktualisiert werden. Wenn dieser Fehler weiterhin besteht, informieren "
+"Sie bitte den Plugin-Autor. Danke!"
+
+#: ../../classes/wpb_comment_rating.php:1145
+#, php-format
+msgid ""
+"Someone rated the comment with the ID %1$s successfully. But the number of "
+"total ratings could not be updated. If this errors persists, please inform "
+"the author of this plugin. Thanks!"
+msgstr ""
+"Jemand hat den Kommentar mit der ID %1$s erfolgreich bewertet. Aber die "
+"Anzahl an Gesamtkommentaren konnte nicht aktualisiert werden. Wenn dieses "
+"Problem weiterhin besteht, informiere bitte den Plugin-Autor. Danke!"
+
+#: ../../classes/wpb_comment_rating.php:1159
+#, php-format
+msgid ""
+"Someone rated the comment with the ID %1$s successfully. But the rating "
+"could not be updated. If this errors persists, please inform the author of "
+"this plugin. Thanks!"
+msgstr ""
+"Jemand hat den Kommentar mit der ID %1$s erfolgreich bewertet. Aber das "
+"Rating konnte nicht aktualisiert werden.  Wenn dieses Problem weiterhin "
+"besteht, informiere bitte den Plugin-Autor. Danke!"
+
+#: ../../classes/wpb_comment_rating.php:1187
+msgid "Thanks for rating!"
+msgstr "Vielen Dank für's bewerten!"
+
+#: ../../classes/wpb_comment_rating.php:1637
+msgid ""
+"Really want to uninstall this plugin? Note that every setting and every "
+"rating will be lost forever! After the uninstall the plugin will be "
+"deactivate itself."
+msgstr ""
+"Willst Du dieses Plugin wirklich deinstallieren? Bitte beachte, dass dabei "
+"alle Einstellungen und alle Bewertungen unwiderruflich verloren gehen! Nach "
+"der Deinstallation wird sich das Plugin selbst deaktivieren."
+
+#: ../../classes/wpb_comment_rating.php:1638
+msgid "Yes"
+msgstr "Ja"
+
+#: ../../classes/wpb_comment_rating.php:1639
+msgid "No"
+msgstr "Nein"
+
+#: ../../classes/wpb_comment_rating.php:1693
+msgid "Rating/Votes"
+msgstr "Bewertung/Stimmen"
+
+#: ../../classes/wpb_comment_rating.php:1863
+#, php-format
+msgid ""
+"<li><a href=\"%2$s\">%1$s</a> <span class=\"wpbcr-icon wpbcr-icon-thumbs-o-up"
+"\"></span> (%4$d/%5$d)</li>"
+msgstr ""
+
+#: ../../classes/wpb_comment_rating.php:1865
+#, php-format
+msgid ""
+"<li>%1$s on <a href=\"%2$s\">%3$s</a> <span class=\"wpbcr-icon wpbcr-icon-"
+"thumbs-o-up\"></span> (%4$d/%5$d)</li>"
+msgstr ""
+
+#: ../../classes/wpb_comment_rating.php:2001
+msgid "Log was deleted"
+msgstr "Log wurde gelöscht."
+
+#: ../../classes/wpb_comment_rating.php:2049
+msgid "Nothing has been deleted from the IP table."
+msgstr "Es wurde nichts von der IP-Adressen Tabelle entfernt."
+
+#: ../../classes/wpb_comment_rating.php:2055
+#, php-format
+msgid "%u entries have been deleted from the IP table."
+msgstr "Es wurden %u Einträge aus der IP-Adressen-Tabelle gelöscht."
+
+#: ../../classes/wpb_comment_rating.php:2103
+msgid "This comment has been removed due to low ratings."
+msgstr ""
+"Dieser Kommentar wurde aufgrund einer Schwellwert-Bewertungsgrenze entfernt."
+
+#: ../../wp-comment-rating.php:19
+#, php-format
+msgid ""
+"You are using PHP in version %1$s. This version is outdated and cannot be "
+"used with the %2$s plugin. Please update to the latest PHP version in order "
+"to use this plugin. You can ask your provider on how to do this."
+msgstr ""
+"Du benutzt PHP in der Version %1$s. Diese Version veraltet und kann zusammen "
+"mit dem %2$s Plugin nicht benutzt werden. Bitte aktualisiere auf eine "
+"aktuellere PHP-Version um dieses Plugin zu nutzen. Du kannst bei deinem "
+"Provider nachfragen wie das geht."
+
+#: ../../wp-comment-rating.php:34
+msgid "Uninstall"
+msgstr "Deinstallieren"
+
+#: ../../wp-comment-rating.php:40
+msgid "More plugins by WP-Buddy"
+msgstr "Mehr Plugins von WP-Buddy"
+
+#~ msgid "Like this plugin?"
+#~ msgstr "Du magst dieses Plugin?"
+
+#~ msgid "Your first name"
+#~ msgstr "Dein Vorname"
+
+#~ msgid "Your E-Mail address"
+#~ msgstr "Deine E-Mail Adresse"
+
+#~ msgid "Subscribe for free"
+#~ msgstr "Kostenlos eintragen"
+
+#~ msgid "Subscribe to our free newsletter"
+#~ msgstr "Zum kostenlosen Newsletter eintragen"
+
+#~ msgid "Comment Rating"
+#~ msgstr "Comment Rating"
+
+#~ msgid "How to configure"
+#~ msgstr "So wir dieses Plugin konfiguriert (englisch)"
+
+#, fuzzy
+#~ msgid ""
+#~ "The %s plugin needs at least PHP 5.3 in order to work correctly. Please "
+#~ "contact your website-provider to solve this issue."
+#~ msgstr ""
+#~ "Das %s Plugin benötigt midestens PHP 5.3 um korrekt zu funktionieren. "
+#~ "Bitte kontaktiere deinen Websiten-Provider um auf eine aktuellere Version "
+#~ "umzusteigen."
+
+#, fuzzy
+#~ msgctxt "displayed when activating the plugin went wrong"
+#~ msgid "Go back to the plugins section"
+#~ msgstr "Zurück zur Plugin-Übersicht"
+
+#, fuzzy
+#~ msgctxt "displayed on the plugins settings page"
+#~ msgid ""
+#~ "You should consider entering you purchase code for the %s plugin because "
+#~ "you get every update immediately delivered to your WordPress installation."
+#~ msgstr ""
+#~ "Du solltest mit dem Gedanken spielen den Kaufcode (engl. Purchase Code) "
+#~ "auf der Einstellungsseite des %s Plugins einzugeben. Damit erhältst du "
+#~ "immer sofort alle Update direkt auf deine WordPress Installation."
+
+#, fuzzy
+#~ msgid "System"
+#~ msgstr "System"
+
+#, fuzzy
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#, fuzzy
+#~ msgid "Report file"
+#~ msgstr "Berichtedatei"
+
+#, fuzzy
+#~ msgid "Please include this information when requesting support"
+#~ msgstr ""
+#~ "Bitte übersende uns diese Informationen wenn Du Hilfe benötigst oder ein "
+#~ "Problem bei dir entdeck hast"
+
+#, fuzzy
+#~ msgid "Download Report File"
+#~ msgstr "Bericht downloaden"
+
+#, fuzzy
+#~ msgid "Environment"
+#~ msgstr "Umgebungsvariablen"
+
+#, fuzzy
+#~ msgid "Home-URL"
+#~ msgstr "Home-URL"
+
+#, fuzzy
+#~ msgid "Site-URL"
+#~ msgstr "Seiten-URL"
+
+#, fuzzy
+#~ msgid "Plugin name"
+#~ msgstr "Pluginname"
+
+#, fuzzy
+#~ msgid "Plugin version"
+#~ msgstr "Plugin Version"
+
+#, fuzzy
+#~ msgid "WP version"
+#~ msgstr "WP Version"
+
+#, fuzzy
+#~ msgid "Webserver info"
+#~ msgstr "Webserver Informationen"
+
+#, fuzzy
+#~ msgid "PHP version"
+#~ msgstr "PHP Version"
+
+#, fuzzy
+#~ msgid "MySQL version"
+#~ msgstr "MySQL Version"
+
+#, fuzzy
+#~ msgid "WP memory limit"
+#~ msgstr "WP Speicherlimit"
+
+#, fuzzy
+#~ msgid "WP debug mode"
+#~ msgstr "WP Debug Modus"
+
+#, fuzzy
+#~ msgid "WP max upload size"
+#~ msgstr "WP max. Upload Größe"
+
+#, fuzzy
+#~ msgid "PHP post max size"
+#~ msgstr "Max. PHP POST Größe"
+
+#, fuzzy
+#~ msgid "version"
+#~ msgstr "Version"
+
+#, fuzzy
+#~ msgid "Plugins"
+#~ msgstr "Plugins"
+
+#, fuzzy
+#~ msgid "Theme"
+#~ msgstr "Theme"
+
+#, fuzzy
+#~ msgid "Current theme"
+#~ msgstr "Aktuelles Theme"
+
+#, fuzzy
+#~ msgid "Theme version"
+#~ msgstr "Theme Version"
+
+#, fuzzy
+#~ msgctxt "Theme Author URL"
+#~ msgid "Author URL"
+#~ msgstr "Autoren-URL"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "displayed as the window title in the media library window when the user "
+#~ "has to select a file from it"
+#~ msgid "Select image"
+#~ msgstr "Bild auswählen"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "displayed on the button in the media library window when the user has to "
+#~ "select a file from it"
+#~ msgid "Select"
+#~ msgstr "Auswählen"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "displayed on the button when the user has to select a file from the media "
+#~ "library"
+#~ msgid "Choose from your Media library"
+#~ msgstr "Von der Mediathek wählen"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "displayed on interactive select-boxes to show that the user has to start "
+#~ "typing anything so that the options get load via AJAX"
+#~ msgid "Please start typing to choose ..."
+#~ msgstr "Bitte etwas eingeben um auszuwählen …"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "displayed when the user has to choose between different options in a "
+#~ "select box"
+#~ msgid "Please choose ..."
+#~ msgstr "Bitte wählen …"
